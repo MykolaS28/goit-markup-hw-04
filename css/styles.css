@@ -338,8 +338,7 @@ img {
     width: calc((100% - 48px) / 3);
 }
 .name-and-job {
-    padding-top: 32px;
-    padding-bottom: 32px;
+    padding: 32px 0;
     padding-left: 16px;
     padding-right: 16px;
     border-radius: 0px 0px 4px 4px;
@@ -370,17 +369,22 @@ img {
 .boxsec2:hover, .boxsec2:focus {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
-.use-sec-2 {
+.usesec2 {
     display: block;
     margin-left: auto;
     margin-right: auto;
+    fill: var(--back-btn-cl);
 }
 .social-list {
     display: flex;
+    justify-content: center;
     gap: 24px;
+   
+    
+}
+.social-list-item {
     width: 40px;
     height: 40px;
-    
 }
 
 .btn-link {
