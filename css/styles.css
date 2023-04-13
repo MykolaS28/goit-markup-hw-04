@@ -344,8 +344,7 @@ img {
 }
 .name-and-job {
     padding: 32px 0;
-    padding-left: 16px;
-    padding-right: 16px;
+    
     border-radius: 0px 0px 4px 4px;
 }
 .portfolio-list {
