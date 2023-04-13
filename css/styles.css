@@ -352,8 +352,11 @@ img {
     width: calc((100% - 48px) / 3);
     
 }
-.portfollio-link:hover, .portfollio-link:focus {
+.portfolio-link {
     display: block;
+}
+.portfollio-link:hover, .portfollio-link:focus {
+    
     box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
         0px 1px 1px rgba(46, 47, 66, 0.16),
         0px 2px 1px rgba(46, 47, 66, 0.08);
@@ -448,6 +451,7 @@ img {
 .sec-footer {
     display: flex;
     align-items: baseline;
+    gap: 120px
     
 }
 .social-media {
@@ -461,9 +465,7 @@ img {
     color: #FFFFFF;
     margin-bottom: 16px;
 }
-.foot-div-1 {
-    margin-right: 120px;
-}
+
 
 .btn-link-footer:hover, .btn-link-footer:focus {
     background-color: #31D0AA;
