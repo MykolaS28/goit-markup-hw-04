@@ -5,6 +5,7 @@
     --hover-cl: #404bbf;
     --contact-cl: #434455;
     --back-btn-cl: #f4f4fd;
+    --icon-color:#afb1b8;
 
 }
 
@@ -415,25 +416,29 @@ img {
     gap: 24px;
     justify-content: center;
     align-items: center;
+    color: var(--icon-color);
     
 }
 .use-sec-4 {
     width: 104px;
     height: 56px;
     fill: #8E8F99;
+    fill: currentColor;
 }
 .customer-link:hover .use-sec-4, .customer-link:focus .use-sec-4 {
     fill: #404BBF;
 }
 .customer-link:hover, .customer-link:focus{
     border-color: #404BBF;
+    color: #404bbf;
 }
 .section-5{
     padding-bottom: 190px;
 }
 .sec-footer {
     display: flex;
-    align-items: self-start;
+    align-items: baseline;
+    
 }
 .social-media {
     display: inline-block;
@@ -455,4 +460,13 @@ img {
 }
 .foot-list {
     gap: 16px;
+}
+.customer {
+    line-height: 1.1;
+}
+.footer-list {
+    width: calc((100% - 120px) / 6);
+}
+.use-sec-footer {
+    fill: var(--back-btn-cl);
 }
