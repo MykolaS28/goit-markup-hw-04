@@ -295,6 +295,9 @@ img {
     display: flex;
     gap: 24px;
 }
+.divcont {
+    display: flex;
+}
 
 .sectoin-what{
     padding-top: 0;
@@ -383,9 +386,7 @@ img {
     filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 }
 .usesec2 {
-    display: block;
-    margin-left: auto;
-    margin-right: auto;
+    
     fill: var(--back-btn-cl);
 }
 .social-list {
@@ -432,9 +433,7 @@ img {
     
 }
 .use-sec-4 {
-    width: 104px;
-    height: 56px;
-    fill: #8E8F99;
+    
     fill: currentColor;
 }
 .customer-link:hover .use-sec-4, .customer-link:focus .use-sec-4 {
