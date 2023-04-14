@@ -354,7 +354,7 @@ img {
     width: calc((100% - 48px) / 3);
     
 }
-.portfolio-link {
+.portfollio-link {
     display: block;
 }
 .portfollio-link:hover, .portfollio-link:focus {
@@ -433,8 +433,7 @@ img {
     
 }
 .use-sec-4 {
-    
-    fill: currentColor;
+       fill: currentColor;
 }
 .customer-link:hover .use-sec-4, .customer-link:focus .use-sec-4 {
     fill: #404BBF;
